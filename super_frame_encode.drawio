@@ -4,55 +4,79 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-1" target="H_5QPLYrO2WsYd4f-BC5-8">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H_5QPLYrO2WsYd4f-BC5-1" target="H_5QPLYrO2WsYd4f-BC5-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="30" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-8" target="H_5QPLYrO2WsYd4f-BC5-10">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H_5QPLYrO2WsYd4f-BC5-8" target="H_5QPLYrO2WsYd4f-BC5-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-8" target="H_5QPLYrO2WsYd4f-BC5-13">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H_5QPLYrO2WsYd4f-BC5-8" target="H_5QPLYrO2WsYd4f-BC5-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-8" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;上个超级帧组帧后，最后的音频帧是否有剩余&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-8" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;上个超级帧组帧后，最后的音频帧是否有剩余&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="90" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-10" target="H_5QPLYrO2WsYd4f-BC5-15">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H_5QPLYrO2WsYd4f-BC5-10" target="H_5QPLYrO2WsYd4f-BC5-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-10" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;将剩余部分放入新的超级帧中&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-10" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;将剩余部分放入新的超级帧中&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="97.5" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-12" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-12" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="360" y="80" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-13" target="H_5QPLYrO2WsYd4f-BC5-20">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H_5QPLYrO2WsYd4f-BC5-13" target="H_5QPLYrO2WsYd4f-BC5-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-13" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;输入的音频帧添加16校验位&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="160" width="120" height="40" as="geometry" />
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-13" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;输入的音频帧添加16校验位&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="215" y="160" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-15">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H_5QPLYrO2WsYd4f-BC5-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="179.75" as="sourcePoint" />
             <mxPoint x="335" y="179.75" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-20" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;正常添加该音频帧后是否空间不足&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="220" width="170" height="40" as="geometry" />
+        <mxCell id="FQrFjegRPgmL6ipm70EM-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-20" target="FQrFjegRPgmL6ipm70EM-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="H_5QPLYrO2WsYd4f-BC5-15">
+        <mxCell id="FQrFjegRPgmL6ipm70EM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_5QPLYrO2WsYd4f-BC5-20" target="FQrFjegRPgmL6ipm70EM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-20" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;正常添加该音频帧后是否空间不足&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="H_5QPLYrO2WsYd4f-BC5-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="179.75" as="sourcePoint" />
             <mxPoint x="335" y="179.75" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H_5QPLYrO2WsYd4f-BC5-15" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H_5QPLYrO2WsYd4f-BC5-15" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrFjegRPgmL6ipm70EM-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;记录帧边界索引frame_borders&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 6px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;将该音频帧与校验位添加到payload&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="278" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrFjegRPgmL6ipm70EM-3" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="248" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrFjegRPgmL6ipm70EM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FQrFjegRPgmL6ipm70EM-4" target="FQrFjegRPgmL6ipm70EM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrFjegRPgmL6ipm70EM-4" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;记录帧边界索引&lt;/font&gt;&lt;span style=&quot;font-size: 6px;&quot;&gt;frame_borders&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="218.75" width="90" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrFjegRPgmL6ipm70EM-8" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;可用空间是否小于3字节&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="260" width="115" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FQrFjegRPgmL6ipm70EM-10" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
