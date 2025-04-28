@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="第 1 页" id="IJGbnoU1Glra_pV7yRjn">
-    <mxGraphModel dx="716" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="796" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
         <mxCell id="221bUUAiKaxn2Sf912eD-27" value="推流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="340" y="310" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="221bUUAiKaxn2Sf912eD-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.002;exitY=0.159;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="221bUUAiKaxn2Sf912eD-7" target="221bUUAiKaxn2Sf912eD-37">
+        <mxCell id="221bUUAiKaxn2Sf912eD-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.999;entryY=0.343;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="221bUUAiKaxn2Sf912eD-7" target="221bUUAiKaxn2Sf912eD-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="349" y="230" as="sourcePoint" />
             <mxPoint x="242.79280799939556" y="233.22396036063276" as="targetPoint" />
@@ -68,6 +68,18 @@
         </mxCell>
         <mxCell id="221bUUAiKaxn2Sf912eD-38" value="Brower A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="221bUUAiKaxn2Sf912eD-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.639;entryY=1.007;entryDx=0;entryDy=0;exitX=0.649;exitY=-0.003;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430.2" y="225" as="sourcePoint" />
+            <mxPoint x="430.00000000000006" y="170.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="221bUUAiKaxn2Sf912eD-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.639;entryY=1.007;entryDx=0;entryDy=0;exitX=0.649;exitY=-0.003;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.74" y="170" as="sourcePoint" />
+            <mxPoint x="389.74" y="225" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
