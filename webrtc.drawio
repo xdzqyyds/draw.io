@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="第 1 页" id="IJGbnoU1Glra_pV7yRjn">
-    <mxGraphModel dx="443" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -277,7 +277,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-71" value="从响应头中提取WHIP session URL用于后续会话更新" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="1610" width="120" height="60" as="geometry" />
+          <mxGeometry x="1090" y="1590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-73" target="VNRKLU0AiTXSvMPUa9KE-75">
           <mxGeometry relative="1" as="geometry" />
@@ -319,6 +319,24 @@
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-89" value="发送ICE候选列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1480" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-92" value="否·" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1308" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-93" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-94" value="否·" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1710" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-95" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1661.25" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-96" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1510" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-97" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1480" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
