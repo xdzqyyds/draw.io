@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="第 1 页" id="IJGbnoU1Glra_pV7yRjn">
-    <mxGraphModel dx="591" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="443" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,7 +285,7 @@
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-73" target="VNRKLU0AiTXSvMPUa9KE-77">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VNRKLU0AiTXSvMPUa9KE-73" value="响应头包含link字段" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-73" value="响应头包含link头" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1075" y="1510" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-75" target="VNRKLU0AiTXSvMPUa9KE-77">
@@ -294,7 +294,7 @@
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-75" value="更新ICE服务器信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1090" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VNRKLU0AiTXSvMPUa9KE-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-77" target="VNRKLU0AiTXSvMPUa9KE-80">
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-77" target="VNRKLU0AiTXSvMPUa9KE-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-77" value="解析响应体" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
@@ -302,17 +302,23 @@
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-80" target="VNRKLU0AiTXSvMPUa9KE-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1530" y="1610" as="targetPoint" />
+            <mxPoint x="1540" y="1710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-80" value="设置本地描述和远程描述" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="1510" width="120" height="60" as="geometry" />
+          <mxGeometry x="1480" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-84" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="1610" width="100" height="60" as="geometry" />
+          <mxGeometry x="1490" y="1710" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-87" value="抛出错误" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1290" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-89" target="VNRKLU0AiTXSvMPUa9KE-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-89" value="发送ICE候选列表" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
