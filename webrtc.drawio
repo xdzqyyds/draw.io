@@ -108,7 +108,7 @@
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-3" target="VNRKLU0AiTXSvMPUa9KE-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VNRKLU0AiTXSvMPUa9KE-3" value="不存在房间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="VNRKLU0AiTXSvMPUa9KE-3" value="新建房间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="105" y="550" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VNRKLU0AiTXSvMPUa9KE-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VNRKLU0AiTXSvMPUa9KE-12" target="VNRKLU0AiTXSvMPUa9KE-34">
