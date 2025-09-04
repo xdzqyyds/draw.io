@@ -149,7 +149,7 @@
         <mxCell id="_vC0-f2fYUa1paOYDeHV-34" value="encSampleBuf[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_vC0-f2fYUa1paOYDeHV-36" value="每个输出采样点是由从 &lt;code data-start=&quot;623&quot; data-end=&quot;644&quot;&gt;k + downSampleRatio&lt;/code&gt; 开始的输入信号样本的最后 &lt;code data-start=&quot;658&quot; data-end=&quot;664&quot;&gt;Ncof&lt;/code&gt; 个样本加权求和得到" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-36" value="每个输出采样点是由从 &lt;code data-start=&quot;623&quot; data-end=&quot;644&quot;&gt;k + downSampleRatio&lt;/code&gt; 开始的输入信号样本的最后 &lt;code data-start=&quot;658&quot; data-end=&quot;664&quot;&gt;Ncof&lt;/code&gt; 个样本加权求和得到的" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1080" y="620" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
