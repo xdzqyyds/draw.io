@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="第 1 页" id="K1KIOk-ZP-RjoFFrQjsr">
-    <mxGraphModel dx="969" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="692" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,16 +138,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-30" value="sampleBuf[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="1090" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-32" value="下采样" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="540" width="60" height="30" as="geometry" />
+          <mxGeometry x="1210.5" y="540" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-33" value="恢复时域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1225" y="408" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-34" value="encSampleBuf[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="900" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-36" value="每个输出采样点是由从 &lt;code data-start=&quot;623&quot; data-end=&quot;644&quot;&gt;k + downSampleRatio&lt;/code&gt; 开始的输入信号样本的最后 &lt;code data-start=&quot;658&quot; data-end=&quot;664&quot;&gt;Ncof&lt;/code&gt; 个样本加权求和得到" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="620" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
