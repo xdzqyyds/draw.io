@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="第 1 页" id="K1KIOk-ZP-RjoFFrQjsr">
-    <mxGraphModel dx="661" dy="1017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="559" dy="861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
         <mxCell id="_vC0-f2fYUa1paOYDeHV-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_vC0-f2fYUa1paOYDeHV-24" target="_vC0-f2fYUa1paOYDeHV-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_vC0-f2fYUa1paOYDeHV-24" value="sampleBufRS[ch][i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-24" value="sampleBufRS[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1470" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_vC0-f2fYUa1paOYDeHV-29" target="_vC0-f2fYUa1paOYDeHV-24">
@@ -125,7 +125,7 @@
         <mxCell id="_vC0-f2fYUa1paOYDeHV-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_vC0-f2fYUa1paOYDeHV-26" target="_vC0-f2fYUa1paOYDeHV-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_vC0-f2fYUa1paOYDeHV-26" value="tmpBufRS[ch][i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-26" value="tmpBufRS[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1280" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-28" value="加入延迟" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -134,7 +134,10 @@
         <mxCell id="_vC0-f2fYUa1paOYDeHV-29" value="downmixBuffer[i]&lt;div&gt;（和信号、差信号交错）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1460" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_vC0-f2fYUa1paOYDeHV-30" value="sampleBuf[ch][i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_vC0-f2fYUa1paOYDeHV-30" target="_vC0-f2fYUa1paOYDeHV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-30" value="sampleBuf[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1100" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-32" value="下采样" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -142,6 +145,9 @@
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-33" value="恢复时域" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1225" y="408" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-34" value="encSampleBuf[i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
