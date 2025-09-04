@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
   <diagram name="第 1 页" id="K1KIOk-ZP-RjoFFrQjsr">
-    <mxGraphModel dx="441" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,6 +118,12 @@
         </mxCell>
         <mxCell id="_vC0-f2fYUa1paOYDeHV-22" value="downmixBuffer[1][i]&lt;div&gt;（差信号）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_vC0-f2fYUa1paOYDeHV-20">
           <mxGeometry y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-24" value="sampleBufRS[ch][i]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_vC0-f2fYUa1paOYDeHV-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_vC0-f2fYUa1paOYDeHV-22" target="_vC0-f2fYUa1paOYDeHV-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
