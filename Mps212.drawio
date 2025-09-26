@@ -160,7 +160,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M33nOUc_PUPObxevJ1rU-13" value="*当走MPS路线时，送入核心编码器的是一个通道的数据&lt;div&gt;*当不走MPS路线时，送入核心编码器的是两个通道的数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="195" y="930" width="330" height="40" as="geometry" />
+          <mxGeometry x="205" y="910" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
