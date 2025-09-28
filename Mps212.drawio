@@ -208,6 +208,64 @@
             <mxPoint x="-260" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="BxGHMYLakli40iTfBlXL-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.124;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BxGHMYLakli40iTfBlXL-11" target="BxGHMYLakli40iTfBlXL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="310" as="sourcePoint" />
+            <mxPoint x="-230" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-370" y="260" />
+              <mxPoint x="-340" y="270" />
+              <mxPoint x="-320" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxGHMYLakli40iTfBlXL-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.124;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-368" y="240" as="sourcePoint" />
+            <mxPoint x="-290" y="241" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-348" y="260" />
+              <mxPoint x="-318" y="270" />
+              <mxPoint x="-298" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxGHMYLakli40iTfBlXL-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.124;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="240" as="sourcePoint" />
+            <mxPoint x="-262" y="241" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="260" />
+              <mxPoint x="-290" y="270" />
+              <mxPoint x="-270" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxGHMYLakli40iTfBlXL-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.124;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="240" as="sourcePoint" />
+            <mxPoint x="-202" y="241" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-260" y="260" />
+              <mxPoint x="-230" y="270" />
+              <mxPoint x="-210" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxGHMYLakli40iTfBlXL-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.124;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-259" y="241" as="sourcePoint" />
+            <mxPoint x="-181" y="241" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-239" y="260" />
+              <mxPoint x="-209" y="270" />
+              <mxPoint x="-189" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxGHMYLakli40iTfBlXL-19" value="依次后移填充delayBufferSamples" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
